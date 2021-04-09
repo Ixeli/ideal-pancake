@@ -1,0 +1,17 @@
+ideal-pancake
+
+A CLI tool for text analysis
+
+Usage:
+
+ideal-pancake </path/to/file> [-d] [/path/to/dictionary]
+
+Where file is the text file you would like to analyze, and dictionary is your dictionary file.
+file can contain any ASCII text, but dictionary must be a list of words, separated by whitespaces.
+If dictionary mode is enabled, a dictionary is required. Dictionary mode allows access to better word analysis functions, but it requires a dictionary file.
+
+Options:
+
+-d     Enable dictionary mode.
+
+-h     View this text
